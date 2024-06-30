@@ -2,9 +2,118 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html lang="tr">
 
-<div class="text-center">
-    <h1 class="display-4">Github Webhook - Jenkins Test</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Eskitoğlu - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #000;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .contact-info p,
+        .social-media p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Umut Eskitoğlu</h1>
+        <div class="section contact-info">
+            <h2>İletişim Bilgileri</h2>
+            <p><strong>Email:</strong> <a href="mailto:eskitoglu.umut@gmail.com">eskitoglu.umut@gmail.com</a></p>
+            <p><strong>Adres:</strong> Ataşehir İçerenköy, 34752 İSTANBUL, Türkiye</p>
+        </div>
+        <div class="section social-media">
+            <h2>Sosyal Medya</h2>
+            <p><strong>LinkedIn:</strong> <a
+                    href="https://www.linkedin.com/in/umuteskitoglu/">linkedin.com/in/umuteskitoglu</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/umuteskitoglu">github.com/umuteskitoglu</a></p>
+        </div>
+        <div class="section about">
+            <h2>Hakkımda</h2>
+            <p>Adaptability to Innovation: I thrive in dynamic environments, readily adapting to emerging technologies
+                and methodologies. My passion for innovation drives me to continuously seek new ways to enhance project
+                outcomes.</p>
+            <p>Strong Team Communication: I foster positive team dynamics through effective communication and
+                collaboration. Known for my ability to listen actively and contribute constructively, I ensure alignment
+                among team members to achieve shared goals.</p>
+            <p>Detail-Oriented and Organized: Precision is at the core of my work ethic. I meticulously attend to
+                details in coding, project planning, and documentation, ensuring accuracy and completeness in every
+                task.</p>
+            <p>Proactive Problem-Solver: Challenges inspire me to apply my problem-solving skills creatively. I approach
+                tasks with a proactive attitude, breaking down complexities to deliver efficient and effective
+                solutions.</p>
+            <p>Continuous Learner: Committed to personal and professional growth, I actively engage in learning
+                opportunities to stay updated with the latest trends. Workshops, courses, and industry events are
+                regular parts of my journey toward improvement.</p>
+        </div>
+        <div class="section experience">
+            <h2>İş Deneyimi</h2>
+            <h3>Full Stack Developer, VH Medya (01/09/2018 – 01/04/2019)</h3>
+            <p>İstanbul, Türkiye | <a href="http://www.vhmedya.com">www.vhmedya.com</a></p>
+            <ul>
+                <li>Programming Languages: PHP and .NET Core</li>
+                <li>Frontend Technologies: HTML, CSS, and Javascript</li>
+                <li>Mobile Development: Developing mobile applications</li>
+                <li>SEO Optimization: Implementing SEO best practices</li>
+            </ul>
+            <h3>Full Stack .Net Developer, TTR Bilişim Hizmetleri (01/04/2019 – 01/07/2021)</h3>
+            <p>İstanbul, Türkiye | <a href="http://www.ttrbilisim.com">www.ttrbilisim.com</a></p>
+            <ul>
+                <li>Saka Su: Developed and maintained web applications</li>
+                <li>Hayat Kimya: Implemented .NET solutions</li>
+                <li>İstanbul Şehir Hatları: Contributed to the development of digital platforms</li>
+            </ul>
+            <h3>.Net Developer, 12M Consulting (01/07/2021 – Devam ediyor)</h3>
+            <p>İstanbul, Türkiye | <a href="http://www.12mconsulting.com.tr">www.12mconsulting.com.tr</a></p>
+            <ul>
+                <li>Logistics: Developed web and mobile applications</li>
+                <li>Warehouse Management System (WMS): Analyzed and implemented WMS projects</li>
+                <li>ERP Transition to .NET8: Contributed to the transition project</li>
+            </ul>
+        </div>
+        <div class="section education">
+            <h2>Eğitim</h2>
+            <h3>Computer Programming, Marmara University (01/09/2016 – 01/06/2018)</h3>
+            <p>İstanbul, Türkiye | <a href="http://www.marmara.edu.tr">www.marmara.edu.tr</a></p>
+            <h3>Management Information Systems, Anadolu University (01/09/2020 – Devam ediyor)</h3>
+            <p>Eskişehir, Türkiye | <a href="http://www.anadolu.edu.tr">www.anadolu.edu.tr</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

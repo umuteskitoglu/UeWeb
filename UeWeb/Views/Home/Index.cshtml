@@ -361,6 +361,37 @@
         }
     }
     </script>
+
+    <!-- Smooth Scrolling JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all links that have hash (#) in their href
+            const anchorLinks = document.querySelectorAll('a[href^="#"]');
+            
+            // Add click event listener to each anchor link
+            anchorLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Prevent default anchor click behavior
+                    e.preventDefault();
+                    
+                    // Get the target element from the href attribute
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        // Scroll smoothly to the target element
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80, // Offset for header height
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update URL without page jump (optional)
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
 

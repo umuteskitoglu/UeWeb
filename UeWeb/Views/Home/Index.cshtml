@@ -1,2 +1,307 @@
-﻿<div>Umut Eskitoğlu Test Server</div>
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umut Eskitoğlu - Kişisel Web Sitesi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="flex items-center mb-4 md:mb-0">
+                <h1 class="text-3xl font-bold">Umut Eskitoğlu</h1>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-4">
+                <a href="#hakkimda" class="hover:text-blue-200 transition">Hakkımda</a>
+                <a href="#deneyim" class="hover:text-blue-200 transition">İş Deneyimi</a>
+                <a href="#egitim" class="hover:text-blue-200 transition">Eğitim</a>
+                <a href="#iletisim" class="hover:text-blue-200 transition">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Merhaba, Ben Umut</h2>
+                <p class="text-xl text-gray-600 mb-8">Full Stack .NET Geliştirici</p>
+                <p class="text-gray-600 mb-8">
+                    Yenilikçi çözümler üretmeyi seven, detaylara önem veren ve sürekli kendini geliştiren bir yazılım geliştiriciyim.
+                </p>
+                <div class="flex gap-4">
+                    <a href="#iletisim" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition">İletişim</a>
+                    <a href="https://www.linkedin.com/in/umuteskitoglu/" target="_blank" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-6 rounded-full transition">LinkedIn</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <div class="w-64 h-64 rounded-full bg-blue-100 flex items-center justify-center shadow-lg">
+                    <span class="text-6xl text-blue-600">UE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="hakkimda" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Hakkımda</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Yenilikçiliğe Uyum</h3>
+                    <p class="text-gray-600">
+                        Dinamik ortamlarda başarılı olmaktan ve yeni teknolojilere hızla adapte olmaktan keyif alıyorum. Yenilikçilik tutkum, proje sonuçlarını iyileştirmek için sürekli yeni yollar aramama neden oluyor.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Güçlü Takım İletişimi</h3>
+                    <p class="text-gray-600">
+                        Etkili iletişim ve işbirliği yoluyla olumlu takım dinamikleri oluşturuyorum. Aktif dinleme ve yapıcı katkı sağlama yeteneğimle tanınıyorum, ortak hedeflere ulaşmak için takım üyeleri arasında uyumu sağlıyorum.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Detay Odaklı ve Organize</h3>
+                    <p class="text-gray-600">
+                        İş etiğimin temelinde hassasiyet yer alır. Kodlama, proje planlama ve dokümantasyonda ayrıntılara titizlikle dikkat ediyor, her görevde doğruluk ve eksiksizlik sağlıyorum.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Proaktif Problem Çözücü</h3>
+                    <p class="text-gray-600">
+                        Zorluklar, problem çözme becerilerimi yaratıcı bir şekilde uygulamam için beni teşvik eder. Görevlere proaktif bir tutumla yaklaşarak, verimli ve etkili çözümler sunmak için karmaşıklıkları parçalara ayırırım.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="deneyim" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">İş Deneyimi</h2>
+            
+            <!-- Current Job -->
+            <div class="mb-12 relative border-l-4 border-blue-600 pl-6">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-600"></div>
+                <h3 class="text-2xl font-bold text-gray-800">.NET Geliştirici</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                    <span class="font-semibold">12M Consulting</span>
+                    <span class="mx-2">|</span>
+                    <span>Temmuz 2021 - Günümüze</span>
+                    <span class="mx-2">|</span>
+                    <span>İstanbul, Türkiye</span>
+                </div>
+                <div class="mt-4">
+                    <h4 class="text-lg font-semibold text-blue-600 mb-2">Lojistik</h4>
+                    <p class="text-gray-600 mb-4">
+                        Taşımacılık sektöründeki müşteriler için araç takip ve yönetim çözümleri sunan web ve mobil uygulamalar geliştirdim.
+                    </p>
+                    <p class="text-gray-600 italic mb-4">
+                        Kullanılan Teknolojiler: .NET Core, MSSQL, Redis, Elasticsearch, HTML, CSS, JavaScript, Bootstrap, Xamarin, .NET Web API, SOAP, React, Next.js
+                    </p>
+                    
+                    <h4 class="text-lg font-semibold text-blue-600 mb-2">Depo Yönetim Sistemi (WMS)</h4>
+                    <p class="text-gray-600 mb-4">
+                        Elektrik, Gıda ve Demir & Çelik sektörlerindeki önde gelen şirketlerin operasyonel ihtiyaçlarına göre uyarlanmış WMS projelerinin analiz ve uygulanmasında kilit rol oynadım.
+                    </p>
+                    <p class="text-gray-600 italic mb-4">
+                        Kullanılan Teknolojiler: .NET Core, MSSQL, HTML, CSS, JavaScript, Bootstrap, Xamarin, .NET Web API, SOAP, Windows Mobile Apps
+                    </p>
+                    
+                    <h4 class="text-lg font-semibold text-blue-600 mb-2">ERP'nin .NET8'e Geçişi</h4>
+                    <p class="text-gray-600 mb-4">
+                        Otomotiv sektöründeki bir müşteri için bir projenin .NET8'e geçişine katkıda bulundum.
+                    </p>
+                    <p class="text-gray-600 italic mb-4">
+                        Kullanılan Teknolojiler: .NET8, MSSQL, RESTful API, HTML, CSS, JavaScript, Bootstrap, Windows Forms
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Previous Job 1 -->
+            <div class="mb-12 relative border-l-4 border-blue-400 pl-6">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-400"></div>
+                <h3 class="text-2xl font-bold text-gray-800">Full Stack .NET Geliştirici</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                    <span class="font-semibold">TTR Bilişim Hizmetleri</span>
+                    <span class="mx-2">|</span>
+                    <span>Nisan 2019 - Temmuz 2021</span>
+                    <span class="mx-2">|</span>
+                    <span>İstanbul, Türkiye</span>
+                </div>
+                <div class="mt-4 text-gray-600">
+                    <p class="mb-4">
+                        Saka Su, Hayat Kimya ve İstanbul Şehir Hatları gibi tanınmış organizasyonlar için projelere katkıda bulundum:
+                    </p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Müşteri deneyimlerini geliştirmek ve iç süreçleri optimize etmek için web uygulamaları geliştirdim ve bakımını yaptım.</li>
+                        <li>Operasyonları kolaylaştırmak ve veri yönetim sistemlerini iyileştirmek için .NET çözümleri uyguladım.</li>
+                        <li>Verimli iletişim ve hizmet erişilebilirliğini sağlayan dijital platformların geliştirilmesine katkıda bulundum.</li>
+                    </ul>
+                    <p class="text-gray-600 italic">
+                        Kullanılan Teknolojiler: .NET MVC, ASP.NET, WCF, Web API, Windows Forms, Frontend ve Backend Geliştirme, Adobe XD
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Previous Job 2 -->
+            <div class="relative border-l-4 border-blue-300 pl-6">
+                <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-300"></div>
+                <h3 class="text-2xl font-bold text-gray-800">Full Stack Geliştirici</h3>
+                <div class="flex items-center text-gray-600 mb-2">
+                    <span class="font-semibold">VH Medya</span>
+                    <span class="mx-2">|</span>
+                    <span>Eylül 2018 - Nisan 2019</span>
+                    <span class="mx-2">|</span>
+                    <span>İstanbul, Türkiye</span>
+                </div>
+                <div class="mt-4 text-gray-600">
+                    <p class="mb-4">
+                        VH Medya'daki Full-Stack Geliştirici görevim süresince, dinamik ve sezgisel web uygulamaları oluşturmak için çeşitli teknolojilerdeki becerilerimi geliştirdim:
+                    </p>
+                    <ul class="list-disc list-inside mb-4">
+                        <li>Programlama Dilleri: PHP ve .NET Core'da uzmanlık</li>
+                        <li>Frontend Teknolojileri: HTML, CSS ve Javascript'te yetkinlik</li>
+                        <li>Mobil Geliştirme: Mobil uygulamalar geliştirmede pratik deneyim</li>
+                        <li>SEO Optimizasyonu: SEO en iyi uygulamalarını uygulamada bilgi sahibi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="egitim" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Eğitim</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">Yönetim Bilişim Sistemleri</h3>
+                    <p class="text-gray-700 font-medium">Anadolu Üniversitesi</p>
+                    <p class="text-gray-600">Eylül 2020 - Ocak 2025 (Beklenen)</p>
+                    <p class="text-gray-600 mt-2">Eskişehir, Türkiye</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">Bilgisayar Programcılığı</h3>
+                    <p class="text-gray-700 font-medium">Marmara Üniversitesi</p>
+                    <p class="text-gray-600">Eylül 2016 - Haziran 2018</p>
+                    <p class="text-gray-600 mt-2">İstanbul, Türkiye</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">İletişim</h2>
+            
+            <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fas fa-envelope text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">E-posta</h3>
+                            <a href="mailto:eskitoglu.umut@gmail.com" class="text-blue-600 hover:underline">eskitoglu.umut@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fas fa-phone-alt text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Telefon</h3>
+                            <a href="tel:+905350447860" class="text-blue-600 hover:underline">(+90) 535 044 7860</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Adres</h3>
+                            <p class="text-gray-600">Karslı Ahmet Caddesi Mehtaplı Sokak No 15 Daire 6 <br>Ataşehir, İçerenköy, 34752, İstanbul, Türkiye</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fab fa-linkedin-in text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/umuteskitoglu/" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/umuteskitoglu</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fab fa-github text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">GitHub</h3>
+                            <a href="https://github.com/rascal98" target="_blank" class="text-blue-600 hover:underline">github.com/rascal98</a>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <i class="fas fa-birthday-cake text-blue-600 text-xl"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-gray-800">Doğum Tarihi</h3>
+                            <p class="text-gray-600">17 Mayıs 1998</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Umut Eskitoğlu. Tüm hakları saklıdır.</p>
+            <div class="flex justify-center mt-4 space-x-4">
+                <a href="https://www.linkedin.com/in/umuteskitoglu/" target="_blank" class="text-gray-300 hover:text-white">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://github.com/rascal98" target="_blank" class="text-gray-300 hover:text-white">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="mailto:eskitoglu.umut@gmail.com" class="text-gray-300 hover:text-white">
+                    <i class="fas fa-envelope text-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
 

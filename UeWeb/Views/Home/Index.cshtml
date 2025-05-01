@@ -3,7 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umut Eskitoğlu - Kişisel Web Sitesi</title>
+    <title>Umut Eskitoğlu - Kişisel Web Sitesi | Full Stack .NET Geliştirici</title>
+    <meta name="description" content="Umut Eskitoğlu - Full Stack .NET Geliştirici olarak yenilikçi çözümler üreten, detaylara önem veren ve sürekli kendini geliştiren bir yazılım uzmanı.">
+    <meta name="keywords" content=".NET Developer, Full Stack Developer, Web Geliştirici, C#, ASP.NET, .NET Core, Software Engineer, İstanbul">
+    <meta name="author" content="Umut Eskitoğlu">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://umuteskitoglu.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://umuteskitoglu.com">
+    <meta property="og:title" content="Umut Eskitoğlu - Full Stack .NET Geliştirici">
+    <meta property="og:description" content="Umut Eskitoğlu - Full Stack .NET Geliştirici olarak yenilikçi çözümler üreten, detaylara önem veren ve sürekli kendini geliştiren bir yazılım uzmanı.">
+    <meta property="og:image" content="https://umuteskitoglu.com/images/profile.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://umuteskitoglu.com">
+    <meta property="twitter:title" content="Umut Eskitoğlu - Full Stack .NET Geliştirici">
+    <meta property="twitter:description" content="Umut Eskitoğlu - Full Stack .NET Geliştirici olarak yenilikçi çözümler üreten, detaylara önem veren ve sürekli kendini geliştiren bir yazılım uzmanı.">
+    <meta property="twitter:image" content="https://umuteskitoglu.com/images/profile.jpg">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -12,6 +37,40 @@
             font-family: 'Poppins', sans-serif;
         }
     </style>
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Umut Eskitoğlu",
+        "url": "https://umuteskitoglu.com",
+        "jobTitle": "Full Stack .NET Geliştirici",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "12M Consulting"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Anadolu Üniversitesi",
+                "department": "Yönetim Bilişim Sistemleri"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Marmara Üniversitesi",
+                "department": "Bilgisayar Programcılığı"
+            }
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/umuteskitoglu/",
+            "https://github.com/umuteskitoglu"
+        ],
+        "email": "eskitoglu.umut@gmail.com",
+        "birthDate": "1998-05-17",
+        "knowsAbout": [".NET Core", "C#", "ASP.NET", "MSSQL", "JavaScript", "Web Development", "Full Stack Development"]
+    }
+    </script>
 </head>
 <body class="bg-gray-50">
     <!-- Header -->
@@ -44,7 +103,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center">
-                <div class="w-64 h-64 rounded-full bg-blue-100 flex items-center justify-center shadow-lg">
+                <div class="w-64 h-64 rounded-full bg-blue-100 flex items-center justify-center shadow-lg" aria-label="Umut Eskitoğlu profil fotoğrafı" role="img">
                     <span class="text-6xl text-blue-600">UE</span>
                 </div>
             </div>
@@ -265,18 +324,43 @@
         <div class="container mx-auto px-4 text-center">
             <p>&copy; 2024 Umut Eskitoğlu. Tüm hakları saklıdır.</p>
             <div class="flex justify-center mt-4 space-x-4">
-                <a href="https://www.linkedin.com/in/umuteskitoglu/" target="_blank" class="text-gray-300 hover:text-white">
+                <a href="https://www.linkedin.com/in/umuteskitoglu/" target="_blank" class="text-gray-300 hover:text-white" aria-label="LinkedIn Profili">
                     <i class="fab fa-linkedin text-2xl"></i>
                 </a>
-                <a href="https://github.com/umuteskitoglu" target="_blank" class="text-gray-300 hover:text-white">
+                <a href="https://github.com/umuteskitoglu" target="_blank" class="text-gray-300 hover:text-white" aria-label="GitHub Profili">
                     <i class="fab fa-github text-2xl"></i>
                 </a>
-                <a href="mailto:eskitoglu.umut@gmail.com" class="text-gray-300 hover:text-white">
+                <a href="mailto:eskitoglu.umut@gmail.com" class="text-gray-300 hover:text-white" aria-label="E-posta Gönder">
                     <i class="fas fa-envelope text-2xl"></i>
                 </a>
             </div>
+            <nav class="mt-6">
+                <ul class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+                    <li><a href="#hakkimda" class="hover:text-white transition">Hakkımda</a></li>
+                    <li><a href="#deneyim" class="hover:text-white transition">İş Deneyimi</a></li>
+                    <li><a href="#egitim" class="hover:text-white transition">Eğitim</a></li>
+                    <li><a href="#iletisim" class="hover:text-white transition">İletişim</a></li>
+                    <li><a href="/sitemap.xml" class="hover:text-white transition">Site Haritası</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
+    
+    <!-- Structured Data for WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Umut Eskitoğlu - Kişisel Web Sitesi",
+        "url": "https://umuteskitoglu.com",
+        "description": "Umut Eskitoğlu - Full Stack .NET Geliştirici kişisel web sitesi",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://umuteskitoglu.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
 </body>
 </html>
 
